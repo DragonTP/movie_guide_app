@@ -126,7 +126,12 @@ p {
 
 @media screen and (max-width: 600px) {
     .container {
-        font-size: 14px;
+        font-size: 13.5px;
+        width: 95%;
+        padding: 3em 0.5em;
+    }
+    .search-container {
+        gap: 1em;
     }
     .poster {
         margin: auto;

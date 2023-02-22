@@ -5,7 +5,7 @@ const form = document.querySelector('#movie-form')
 
 let getMovie = () => {
     let movieName = movieNameRef.value;
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=72196977`;
+    let url = `https://www.omdbapi.com/?t=${movieName}&apikey=72196977`;
     movieNameRef.value = '';
 
     if (movieName.length === 0) {
